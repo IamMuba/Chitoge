@@ -5,8 +5,8 @@ import { ISimplifiedMessage } from '../../typings'
 import Canvas from 'canvas'
 import GIFEncoder from 'gifencoder'
 import { Sticker } from 'wa-sticker-formatter'
-import { MessageType, Mimetype } from '@adiwajshing/baileys'
-// import { MessageType, Mimetype } from '@adiwajshing/baileys'
+import { MessageType, Mimetype } from '@whiskeysockets/baileys'
+// import { MessageType, Mimetype } from '@whiskeysockets/baileys'
 
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
