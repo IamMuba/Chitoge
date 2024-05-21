@@ -1,4 +1,4 @@
-import { GroupSettingChange } from '@adiwajshing/baileys'
+import { GroupSettingChange } from '@whiskeysockets/baileys'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
