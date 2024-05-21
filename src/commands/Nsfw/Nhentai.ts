@@ -2,7 +2,7 @@ import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
 import { IParsedArgs, ISimplifiedMessage } from "../../typings";
-import { MessageType, Mimetype } from "@adiwajshing/baileys";
+import { MessageType, Mimetype } from "@whiskeysockets/baileys";
 import { Doujin } from "@shineiichijo/nhentai-pdf";
 import { tmpdir } from "os";
 import { readFile } from "fs/promises";

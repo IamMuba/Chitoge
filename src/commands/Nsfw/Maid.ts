@@ -6,7 +6,7 @@ import WAClient from "../../lib/WAClient";
 import { ISimplifiedMessage } from "../../typings";
 import akaneko from "akaneko";
 import request from "../../lib/request";
-import { MessageType } from "@adiwajshing/baileys";
+import { MessageType } from "@whiskeysockets/baileys";
 // import { MessageType, Mimetype } from '@adiwajshing/baileys'
 
 export default class Command extends BaseCommand {
