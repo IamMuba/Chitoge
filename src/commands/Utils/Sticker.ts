@@ -1,4 +1,4 @@
-import { MessageType, Mimetype } from '@adiwajshing/baileys'
+import { MessageType, Mimetype } from '@whiskeysockets/baileys'
 import { Sticker, Categories, StickerTypes } from 'wa-sticker-formatter'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'

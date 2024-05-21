@@ -5,7 +5,7 @@ import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
 import axios from "axios";
 import { IParsedArgs, ISimplifiedMessage } from "../../typings";
-import { MessageType, Mimetype } from "@adiwajshing/baileys";
+import { MessageType, Mimetype } from "@whiskeysockets/baileys";
 import request from "../../lib/request";
 
 export default class Command extends BaseCommand {

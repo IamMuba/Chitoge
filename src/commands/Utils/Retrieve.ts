@@ -4,7 +4,7 @@
  * @format
  */
 
-import { MessageType, proto, WAMessage } from "@adiwajshing/baileys";
+import { MessageType, proto, WAMessage } from "@whiskeysockets/baileys";
 import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
