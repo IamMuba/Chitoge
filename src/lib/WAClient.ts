@@ -3,7 +3,7 @@ import {
   Mimetype,
   WAConnection as Base,
   WAMessage,
-} from "@adiwajshing/baileys";
+} from "@whiskeysockets/baileys";
 import chalk from "chalk";
 import qrImage from "qr-image";
 import { existsSync, writeFileSync } from "fs";
