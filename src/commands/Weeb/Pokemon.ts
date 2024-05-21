@@ -5,7 +5,7 @@ import { IParsedArgs, ISimplifiedMessage } from "../../typings";
 import pokedex from "pokedex-promise-v2";
 import oakdexPokedex from "oakdex-pokedex";
 import request from "../../lib/request";
-import { MessageType } from "@adiwajshing/baileys";
+import { MessageType } from "@whiskeysockets/baileys";
 
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {

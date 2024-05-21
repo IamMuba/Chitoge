@@ -3,7 +3,7 @@ import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
 import { IParsedArgs, ISimplifiedMessage } from "../../typings";
 import { Manga } from "@shineiichijo/marika";
-import { MessageType } from "@adiwajshing/baileys";
+import { MessageType } from "@whiskeysockets/baileys/baileys";
 
 export default class Command extends BaseCommand {
   constructor(client: WAClient, handler: MessageHandler) {
